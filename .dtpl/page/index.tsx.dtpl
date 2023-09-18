@@ -1,0 +1,26 @@
+/**
+ * ${ref.DirName}Page
+ * @author ${ref.author}
+ * @date ${datetime}
+ * @since ${pkg.version}
+ */
+
+import React, { FC } from 'react'
+import { View } from '@tarojs/components'
+// import Theme from '@/components/Theme'
+// import classnames from 'classnames'
+import styles from './index.module.less'
+
+
+export interface ${ref.DirName}Props {}
+
+const ${ref.DirName}: FC<${ref.DirName}Props> = (props) => {
+    const { } = props;
+    return (
+        <View>
+            ${ref.DirName}
+        </View>
+    )
+}
+
+export default ${ref.DirName}
